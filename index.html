@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css"/>
+
+<body>
+    
+    <div class="library">
+ 
+           <h2 class="library-letter">LIBRARY PAGE</h2>
+
+
+           <form>
+
+            <div class="library-input">
+
+                <input id="bookTitle" type="text" placeholder="Book Title">
+    
+               </div>
+    
+               <div class="library-second">
+    
+                <input id="bookAuthor" type="text" placeholder="Book Author">
+    
+               </div>
+    
+               <div class="library_btn">
+    
+                <button>Save</button>
+    
+               </div> 
+           </form>
+       </div>
+
+        <!-- added book section -->
+
+           <div class="added">
+ 
+            <h2 class="letter">Added Book <span style="background-color: white;" id="bookcount">(0)</span></h2>
+
+            <ul id="renderdedLibraray" class="listed" style="background-color: white;">
+
+            </ul> 
+            </div>
+        
+
+   <script src="data/book.js"></script>
+   <script src="data/library.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

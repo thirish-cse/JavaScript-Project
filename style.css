@@ -1,0 +1,127 @@
+*{
+    background-color: rgb(182, 164, 247);
+}
+
+.library{
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 8%; 
+    box-sizing: border-box;
+}
+
+.library-letter{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.library-input {
+    background-color: white;
+     
+}
+
+.library-input input{
+    background-color: rgb(238, 235, 235);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    border-style: none;
+    outline: none;
+    margin-left: 35px;   
+    width: 80%;
+}
+
+
+
+.library-second{
+    background-color: white;
+}
+
+.library-second input{
+    background-color: rgb(238, 235, 235);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    border-style: none;
+    outline: none;
+    margin-top: 10px; 
+    margin-left: 35px;   
+   width: 80%;
+   
+}
+
+.library_btn{
+     
+    background-color: white;
+}
+
+.library_btn button{
+ 
+   outline: none;
+   border-style: none;
+   padding: 5px;
+   margin-left: 35px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   color: white;
+    background-color: rgb(132, 132, 236);
+}
+.library_btn button:hover{
+    color: black;
+    background-color: rgb(114, 102, 218);
+}
+
+
+.added{
+    margin-top: 20px;
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    align-items: center;
+    margin-left: 35%;
+    
+}
+
+.letter{
+    background-color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.head{
+  margin-top: 0;
+  margin-left: 0;
+  background-color: white;
+
+}
+
+.white{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.remove{
+    background-color: rgb(185, 19, 19);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.read{
+    background-color: rgb(17, 168, 17);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    font-size: 10px;
+
+}
